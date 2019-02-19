@@ -6,10 +6,14 @@ NSView to show gradient color:
 ![NSGradientView](https://res.paiyou.org/NSGradientView0.png)
 
 
-###Usage
+### Usage
 
-* Create one NSView and set its class to `NSGradientView`
-* Set `Start Color`, `Start Position`, `End Color`, `End Position` along with `Rotation` and done.
+1. Add `pod 'NSGradientView'` in your podfile and run 
+```
+pod install
+```
+2. Create one NSView and set its class to `NSGradientView`
+3. Set `Start Color`, `Start Position`, `End Color`, `End Position` along with `Rotation` and done.
  * Default Values: 
  ```
  Start Color: NSColor(red: 0.86, green: 0.25, blue: 0.59, alpha: 1)
@@ -20,7 +24,7 @@ NSView to show gradient color:
  ```
 
 
-###Examples
+### Examples
 * Settings for outer NSView in the first image:
 
 ![Settings](https://res.paiyou.org/Screenshot%202019-02-19%20at%2010.59.10.png)
@@ -28,7 +32,7 @@ NSView to show gradient color:
 
 ![Settings](https://res.paiyou.org/Screenshot%202019-02-19%20at%2010.56.56.png)
 
-## License
+### License
 The MIT License (MIT)
 
 Copyright (c) 2018 Paiyou Network
