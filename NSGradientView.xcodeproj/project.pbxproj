@@ -8,16 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		D1AE1276221B1245005B3C8C /* NSGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = D1AE1274221B1245005B3C8C /* NSGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1AE127D221B1261005B3C8C /* NSGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AE127C221B1261005B3C8C /* NSGradientView.swift */; };
+		D1AE1285221B14BE005B3C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AE1284221B14BE005B3C8C /* AppDelegate.swift */; };
+		D1AE1287221B14BE005B3C8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AE1286221B14BE005B3C8C /* ViewController.swift */; };
+		D1AE1289221B14C0005B3C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1AE1288221B14C0005B3C8C /* Assets.xcassets */; };
+		D1AE128C221B14C0005B3C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1AE128A221B14C0005B3C8C /* Main.storyboard */; };
+		D1AE1292221B1509005B3C8C /* NSGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AE127C221B1261005B3C8C /* NSGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D1AE1271221B1245005B3C8C /* NSGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1AE1274221B1245005B3C8C /* NSGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSGradientView.h; sourceTree = "<group>"; };
 		D1AE1275221B1245005B3C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1AE127C221B1261005B3C8C /* NSGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSGradientView.swift; sourceTree = "<group>"; };
+		D1AE1282221B14BE005B3C8C /* NSGradientViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSGradientViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1AE1284221B14BE005B3C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1AE1286221B14BE005B3C8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1AE1288221B14C0005B3C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1AE128B221B14C0005B3C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1AE128D221B14C0005B3C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1AE128E221B14C0005B3C8C /* NSGradientViewDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSGradientViewDemo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D1AE126E221B1245005B3C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AE127F221B14BE005B3C8C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				D1AE1273221B1245005B3C8C /* NSGradientView */,
+				D1AE1283221B14BE005B3C8C /* NSGradientViewDemo */,
 				D1AE1272221B1245005B3C8C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				D1AE1271221B1245005B3C8C /* NSGradientView.framework */,
+				D1AE1282221B14BE005B3C8C /* NSGradientViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,8 +71,22 @@
 			children = (
 				D1AE1274221B1245005B3C8C /* NSGradientView.h */,
 				D1AE1275221B1245005B3C8C /* Info.plist */,
+				D1AE127C221B1261005B3C8C /* NSGradientView.swift */,
 			);
 			path = NSGradientView;
+			sourceTree = "<group>";
+		};
+		D1AE1283221B14BE005B3C8C /* NSGradientViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D1AE1284221B14BE005B3C8C /* AppDelegate.swift */,
+				D1AE1286221B14BE005B3C8C /* ViewController.swift */,
+				D1AE1288221B14C0005B3C8C /* Assets.xcassets */,
+				D1AE128A221B14C0005B3C8C /* Main.storyboard */,
+				D1AE128D221B14C0005B3C8C /* Info.plist */,
+				D1AE128E221B14C0005B3C8C /* NSGradientViewDemo.entitlements */,
+			);
+			path = NSGradientViewDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +121,38 @@
 			productReference = D1AE1271221B1245005B3C8C /* NSGradientView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		D1AE1281221B14BE005B3C8C /* NSGradientViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1AE128F221B14C0005B3C8C /* Build configuration list for PBXNativeTarget "NSGradientViewDemo" */;
+			buildPhases = (
+				D1AE127E221B14BE005B3C8C /* Sources */,
+				D1AE127F221B14BE005B3C8C /* Frameworks */,
+				D1AE1280221B14BE005B3C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSGradientViewDemo;
+			productName = NSGradientViewDemo;
+			productReference = D1AE1282221B14BE005B3C8C /* NSGradientViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D1AE1268221B1245005B3C8C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Rallets;
 				TargetAttributes = {
 					D1AE1270221B1245005B3C8C = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					D1AE1281221B14BE005B3C8C = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -104,6 +163,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D1AE1267221B1245005B3C8C;
 			productRefGroup = D1AE1272221B1245005B3C8C /* Products */;
@@ -111,6 +171,7 @@
 			projectRoot = "";
 			targets = (
 				D1AE1270221B1245005B3C8C /* NSGradientView */,
+				D1AE1281221B14BE005B3C8C /* NSGradientViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +184,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D1AE1280221B14BE005B3C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AE1289221B14C0005B3C8C /* Assets.xcassets in Resources */,
+				D1AE128C221B14C0005B3C8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -130,10 +200,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1AE127D221B1261005B3C8C /* NSGradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AE127E221B14BE005B3C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AE1292221B1509005B3C8C /* NSGradientView.swift in Sources */,
+				D1AE1287221B14BE005B3C8C /* ViewController.swift in Sources */,
+				D1AE1285221B14BE005B3C8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1AE128A221B14C0005B3C8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1AE128B221B14C0005B3C8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D1AE1277221B1245005B3C8C /* Debug */ = {
@@ -260,6 +352,7 @@
 		D1AE127A221B1245005B3C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -275,9 +368,11 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rallets.nsgradientview.NSGradientView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -285,6 +380,7 @@
 		D1AE127B221B1245005B3C8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -300,9 +396,46 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rallets.nsgradientview.NSGradientView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		D1AE1290221B14C0005B3C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSGradientViewDemo/NSGradientViewDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSGradientViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rallets.nsgradientview.NSGradientViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		D1AE1291221B14C0005B3C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSGradientViewDemo/NSGradientViewDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSGradientViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rallets.nsgradientview.NSGradientViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
@@ -324,6 +457,15 @@
 			buildConfigurations = (
 				D1AE127A221B1245005B3C8C /* Debug */,
 				D1AE127B221B1245005B3C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1AE128F221B14C0005B3C8C /* Build configuration list for PBXNativeTarget "NSGradientViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1AE1290221B14C0005B3C8C /* Debug */,
+				D1AE1291221B14C0005B3C8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
