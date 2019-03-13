@@ -7,7 +7,7 @@ NSView to show gradient color:
 
 >Another framwork for Mac OS you may interest in:
 [NSHoverableButton](https://github.com/paiyou-network/NSHoverableButton),
-[CountryCodeNSTextField](https://github.com/paiyou-network/CountryCodeNSTextField)
+[CountryCodeNSTextField](https://github.com/paiyou-network/CountryCodeNSTextField),
 [NSScrollSidebar](https://github.com/paiyou-network/NSScrollSideBar)
 
 ### Usage
