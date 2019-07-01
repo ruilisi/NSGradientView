@@ -3,7 +3,7 @@ NSGradientView
 
 NSView to show gradient color:
 
-![NSGradientView](https://res.paiyou.org/NSGradientView0.png)
+![alt text](https://raw.githubusercontent.com/paiyou-network/NSGradientView/master/screenshot/view.png)
 
 >Another framwork for Mac OS you may interest in:
 [NSHoverableButton](https://github.com/paiyou-network/NSHoverableButton),
@@ -31,10 +31,10 @@ pod install
 ### Examples
 * Settings for outer NSView in the first image:
 
-![Settings](https://res.paiyou.org/Screenshot%202019-02-19%20at%2010.59.10.png)
+![alt text](https://raw.githubusercontent.com/paiyou-network/NSGradientView/master/screenshot/setting1.png)
 * Settings for the inner NSView in the first image:
 
-![Settings](https://res.paiyou.org/Screenshot%202019-02-19%20at%2010.56.56.png)
+![alt text](https://raw.githubusercontent.com/paiyou-network/NSGradientView/master/screenshot/setting2.png)
 
 ### License
 The MIT License (MIT)
